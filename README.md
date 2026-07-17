@@ -1,5 +1,7 @@
 # Desktop Visual Gallery
 
+<img src="assets/desktop-visual-gallery-icon.png" alt="Desktop Visual Gallery icon" width="160">
+
 A private, local-first visual file browser for Windows. It turns a folder tree into a thumbnail gallery so you can recognize a file before you remember its name.
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB)
@@ -60,7 +62,7 @@ After installing dependencies, run:
 powershell -ExecutionPolicy Bypass -File .\install_windows.ps1
 ```
 
-The shortcut refreshes the index before opening the gallery.
+The shortcut refreshes the index before opening the gallery and uses the included custom gallery icon.
 
 ## Privacy and security
 
@@ -88,4 +90,3 @@ Legacy `.xls`, `.doc`, video, archive, and CAD files currently use type cards.
 ## License
 
 MIT
-
